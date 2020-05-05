@@ -134,3 +134,10 @@ MESSAGE_TAGS = {
     messages.ERROR: 'danger',
 
 }
+
+# EMAIL CONFIG
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'finguhguns'
+EMAIL_HOST_PASSWORD = 'etqymyveibvtnvyw'
+EMAIL_USE_TLS = True
