@@ -78,4 +78,4 @@ def dashboard(request):
         '-contact_date').filter(user_id=request.user.id)
     context = {'contacts': user_contacts}
 
-    return render(request, 'accounts/dashboard.html')
+    return render(request, 'accounts/dashboard.html', context)
