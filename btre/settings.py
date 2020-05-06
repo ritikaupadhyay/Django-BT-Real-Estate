@@ -13,7 +13,6 @@ SECRET_KEY = '=esqw-8z&ga7^l(#+8p=e7)#y6&m+djfoyuag-x!_=a17!8(e*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
 ALLOWED_HOSTS = ['127.0.0.1']
 
 
